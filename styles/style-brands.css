@@ -1,0 +1,13 @@
+.b-container{
+    width:100%;
+}
+.b-inner-container{
+    width:1100px;
+    margin: 0 auto;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

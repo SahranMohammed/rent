@@ -1,0 +1,111 @@
+body{
+    overflow-x: hidden;
+}
+.i-cameras{
+    width: 100%;
+}
+.i-inner_cameras{
+    width: 1100px;
+    margin: 0 auto;
+}
+.i-camera_header p{
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top:15px;
+}
+.i-product-display{
+    width:1000px;
+}
+.i-display_single{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+    position: relative;
+    line-height: 20px;
+    overflow: hidden;
+    
+}
+.i-display_single a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: montserrat;
+    font-size: 15px;
+}
+
+.i-lense_header p{
+     font-family: montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top:15px;
+}
+.i-lenses{
+    margin-top: 10px;
+}
+.i-lense_header p{
+    line-height: 150px;
+}
+.i-add_btn{
+    width:150px;
+    background-color:#4d94ff;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+.i-add_btn p{
+    color: white;
+    font-weight: 600;
+    
+}
+.i-add_btn:hover{
+    background-color: #0047b3;
+    transition-duration: 1s;
+}
+
+.i-all_products1{
+    margin-top: 25px;
+    width:180px;
+    height: 20px;
+    float: right;
+}
+
+.i-all_products1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #4d94ff;
+}
+.i-all_products:hover{
+    text-decoration: underline;
+}
+.i-outer_why{
+    width: 100%;
+    margin-top: 20px;
+}
+.i-why{
+    width: 1130px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.i-how_works{
+    font-family: montserrat;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.img_banner{
+    margin-top: 35px;
+}
+
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+

@@ -1,0 +1,47 @@
+.insert_product{
+    width:100%;
+    background-color:white;
+}
+.insert_product1{
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+}
+.insert_product1 table{
+    margin: 0 auto;
+}
+.insert_product1 td{
+    margin: 0 auto;
+    font-family: montserrat;
+
+}
+.insert_product1 input{
+    width:420px;
+    height:27px;
+    border-radius: 3px;
+    border-style:hidden;
+    border-color: darkgray;
+    background-color:#ebebe0;
+    padding:5px;
+}
+td button{
+    margin-top:15px;
+    width:433px;
+    height:38px;
+    border-style: hidden;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    float: right;
+    
+}
+.insert-catogory option, select{
+    width:430px;
+    height: 35px;
+    border-radius: 3px;
+    border-style:hidden;
+    background-color: #ebebe0;
+    padding:5px;
+}
+.insert_product2{
+    background-color: #ebebe0;
+}

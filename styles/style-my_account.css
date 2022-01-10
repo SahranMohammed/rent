@@ -1,0 +1,110 @@
+.m-container{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.m-inner_container{
+    width:1000px;
+    margin: 0 auto;
+}
+.m-header p{
+    font-family: montserrat;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.m-cols{
+    margin-top: 20px;
+}
+.m-cols p{
+    font-family: montserrat;
+}
+.m-input{
+    width:1000px;
+    height: 35px;
+    border-radius: 3px;
+    
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.m-change_pass{
+    margin-top: 20px;
+}
+.m-change_pass p{
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: 400;
+}
+.m-update{
+    width:200px;
+    height:35px;
+    border: hidden;
+    border-radius: 5px;
+    background-color: #0066ff;
+}
+.m-button{
+    width:200px;
+    margin: 0 auto;
+}
+.m-update p{
+    color: white;
+    
+}
+.m-update:hover{
+    background-color: #0054db;
+}
+.m-footer{
+    margin-top: 20px;
+}
+.m-cols a{
+    text-decoration: none;
+}
+.m-cols a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

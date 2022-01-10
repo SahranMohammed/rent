@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+
+
+
+.i-container{
+    width:100%;
+}
+#i-headder p{
+    font-family: montserrat;
+    font-size: 23px;
+    line-height: 50px;
+    color: white;
+
+}
+div#i-headder{
+    height: 50px;
+    background:#222222;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    overflow: hidden;
+    width: 100%
+}
+.side-bar{
+    width: 200px;
+    height: 656px;
+    background-color: red;
+    float: left;
+    background:#222222;
+    
+}
+.side-bar1{
+    margin-top: 60px;
+}
+ul{
+    list-style: none;
+}
+.side-bar a{
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 14px;
+    color: #bdbbbb;
+    padding: 8px;
+    margin: 5px;
+    line-height: 35px;
+    
+}
+.side-bar a:hover{
+    color: white;
+}
+.side-bar li:hover{
+    background: black;
+}
+.content-area{
+    height: 656px;
+    overflow-x: hidden; 
+    overflow-x: auto; 
+ text-align:justify;
+    justify-content: center;
+}
+.inner-content{
+    margin: 0 auto;
+    
+    justify-content: center;
+    margin-top: 80px;
+}

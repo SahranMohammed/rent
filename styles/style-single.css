@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    background:white;
+}
+.s-container{
+    width:100%;
+    height: 900px;
+    background:white ;
+    
+}
+.s-inner_container{
+    width:1000px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+}
+.s-product_view{
+    width:430px;
+    height:800px;
+    background-color: white;
+    float: left;
+}
+.s-product_buy{
+    width:570px;
+    height:900px;
+    background-color: white;
+    float:right;
+}
+.s-main{
+    width: 360px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+}
+.s-sub_view{
+    width:430px;
+    height:100px;
+    background-color:white;
+    margin: 0 auto;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.s-sub{
+    width:100px;
+    height:100px;
+    background-color: white;
+    margin-left: 6px;
+    display: flex;
+    
+}
+.s-price{
+    width:570px;
+    height:420px;
+    background-color: white;
+    margin-top: 40px;
+}
+.s-price h3{
+    font-family: montserrat;
+    margin-left: 100px;
+}
+.s-main_price h3{
+    font-weight: bold;
+}
+.s-per_day{
+    margin-left: 100px;
+}
+
+.s-add_cart{
+    width:530px;
+    height:50px;
+    background-color: #6699ff;
+    padding: 5px;
+    border:none;
+    border-radius: 3px;
+    margin-left: 20px
+}
+.s-add_cart p{
+    color: white;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: 300;
+    margin-top: 4px;
+}
+.s-buy_now{
+    width:200px;
+    height:45px;
+    border:none;
+    background-color:#6699ff;
+    margin-left:18px;
+}
+.s-buy_now p{
+    font-family: montserrat;
+    color:white;
+    font-weight: 500;
+}
+.s-disc{
+    width:530px;
+    height:430px;
+    background-color:white;
+    margin: 0 auto;
+}
+.s-disc p{
+    font-family: montserrat;
+    color: #919191;
+    font-size: 13px;
+}
+
+.s-date_inner{
+    margin: 0 auto;
+}
+.s-from_date{
+    width:350px;
+    height: 20px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-left: 100px;
+    margin-top: -9px;
+    padding: 10px;
+}
+.s-lbl_from{
+    font-family: montserrat;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.s-rent_least{
+    margin-left: 160px;
+}
+
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

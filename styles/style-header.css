@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    background:white;
+}
+
+
+
+#header{
+    background: #001a4d;
+    width:100%;
+    height:140px;
+}
+.inner-header{
+    background: #001a4d;
+    width:1000px;
+    height:130px;
+    margin:0 auto;
+}
+.logo{
+    width: 200px;
+    height:50px;
+    background: #001a4d;
+    float:left;
+    margin-top: 50px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo h1{
+    color: white;
+    font-family:candara;
+    font-size:50px
+}
+.search{
+    width:500px;
+    height:80px;
+    float:right;
+    background: white;
+    margin-top: 28px;
+}
+.singup{
+    width:500px;
+    height:32px;
+    background: #001a4d;
+    float: right;
+    
+}
+.singup a{
+    color: white;
+    text-decoration: none;
+    float:right;
+    font-size: 15px;
+    font-family:segoe ui;
+    
+}
+.singup p{
+     color: white;
+    text-decoration: none;
+    float:right;
+    font-size: 15px;
+    font-family:segoe ui;
+    font-weight: bold;
+}
+.singup a:hover{
+    color:#99ccff;
+}
+.search-bar{
+    width:500px;
+    height:48px;
+    background: #001a4d;
+    float:left;
+}
+.cart{
+    width:130px;
+    height:40px;
+    float:right;
+    background-color: #001233;
+    border: none;
+}
+.cart p{
+    margin-top: 1px;
+    color: white;
+     float:right;
+    font-size: 15px;
+    font-family:montserrat;
+    font-weight: bold;
+    
+}
+.cart:hover{
+    background-color: #000d1a;
+}
+.search-txt{
+    float:right;
+    background-color: white;
+    width:300px;
+    height:40px;
+    border: none;
+    padding:15px;
+    
+}
+.search1{
+    width:38px;
+    height:40px;
+    background-color: #001233;
+    float:right;
+    border:none;
+    margin-right: 30px;
+    
+}
+.search1:hover{
+    background-color: #000d1a;
+}
+.search-txt:hover{
+    background-color: white;
+}
+::placeholder {
+  color: #804000;
+    font-weight: bold;
+    font-family: Segoe UI
+}
+input, select, textarea{
+    color:#804000;
+    font-family: Segoe UI;
+}
+
+/*NAVIGATION BAR */
+#navigation{
+    width:100%;
+    height:40px;
+    background:#001a4d;
+}
+.inner-navigation{
+    width:1000px;
+    height:40px;
+    background-color: #001a4d;
+    margin:0 auto;
+}
+
+
+
+
+
+.dropbtn {
+  background-color: #001a4d;
+  color: white;
+  font-size: 16px;
+  border: none;
+    width:120px;
+    height:40px;
+    
+}
+.dropbtn p{
+    float:left;
+    font-weight:0px;
+    margin-bottom: 3px;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative; 
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:#001a4d ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+    font-family: montserrat;
+    color:#4ca5ed;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #001a4d;
+}
+.h-non-drop h4{
+    font-family:montserrat;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.h-non-drop{
+    height: 30px;
+    background-color: #001a4d;
+    border: none;
+    margin-left:5px;
+}
+.h-non-drop a{
+    text-decoration: none;
+}
+
+
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

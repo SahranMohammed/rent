@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+
+
+
+.foo-container{
+    width:100%;
+    height:300px;
+    background-color:#ECEBEB;
+}
+.f-inner-con{
+    width:1000px;
+    height: 300px;
+    background-color: #ECEBEB;
+    margin: 0 auto;
+}
+.f-three{
+    width:400px;
+    height:250px;
+    float:left;
+    background-color: #ECEBEB;
+}
+.f-two{
+    width:450px;
+    height:250px;
+    float:left;
+    background-color: #ECEBEB;
+}
+.f-one{
+    width:150px;
+    height:250px;
+    float:left;
+    background-color: #ECEBEB;
+}
+.f-one , .f-two , .f-three{
+    margin-top:50px;
+}
+.f-one p{
+    font-family:  montserrat;
+    color:#515151;
+    font-weight:bolder;
+}
+.f-two p{
+    font-family: montserrat;
+}
+.f-out p{
+    font-weight: bolder;
+    color: #515151;
+}
+.f-three h4{
+    font-family: montserrat;
+}
+.f-one li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+    font-family:  montserrat;
+}
+.f-one a{
+    text-decoration: none;
+    color: black;
+}
+.f-one ul{
+    margin-top: 10px;
+}
+.inner-two{
+    margin-top:10px;
+    
+}
+.f-three p{
+    font-family:  montserrat;
+    color:#515151;
+    font-weight:bolder;
+}
+.newslet{
+    margin-top:10px;
+}
+.newslet-ser{
+    width:250px;
+    height:100px;
+}
+.newslet-but{
+    margin-top:5px;
+    width:100px;
+    height:30px;
+    border:none;
+    border-radius: 7px;
+    background: #8A8A8A;
+}
+
+
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

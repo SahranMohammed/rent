@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background:white;
+}
+.b-footer{
+    margin-top: 100px;
+}
+.b-container{
+    width:100%;
+    background-color:white;
+    
+    padding-top: 40px
+}
+.b-inner_container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+th{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-family: montserrat;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2,p{
+    font-family: montserrat;
+}
+table { border-collapse:collapse; }
+table thead th { border-bottom: 3px solid #000; }
+table tbody td { border-bottom: 1px solid #000; }
+
+input.largerCheckbox{
+    width:20px;
+    height: 20px;
+    
+}
+
+tfoot:before {
+    /*line-height:30px;*/
+    content:".";
+    color:white; 
+    display:block;
+}
+table{
+    background-color: white;
+}
+.b-total{
+    color: blue;
+    margin-top: 10px;
+}
+.b-lkr{
+    color: #02b6bd;
+}
+.b-button{
+    width: 700px;
+}
+.b-button{
+    margin-top: 12px;
+}
+
+.b-update_cart, .b-check{
+    float:right;
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border: hidden;
+    background-color: #4d94ff;
+    border-radius: 3px;
+    font-family: montserrat;
+    font-size: 15px
+}
+.b-countinue{
+    width: 200px;
+    height: 40px;
+    border: hidden;
+    background-color: #69fa90;
+    border-radius: 3px;
+    font-family: montserrat;
+    font-size: 15px
+}
+.b-countinue:hover{
+    background-color: #00b509;
+    color: white;
+}
+.b-check:hover{
+    background-color: #005ce6;
+    color: white;
+}
+.b-update_cart:hover{
+    background-color: #005ce6;
+    color: white;
+}
+.b-update_cart a:hover{
+    color: white;
+}
+.c-input{
+    margin-top:0;
+    border: black;
+}
+input[type=date]{
+     box-sizing: border-box;
+    /*border: 2px solid #b3b3b3;*/
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    text-align: center;
+}
+input[type=text]{
+    text-align: center;
+}
+.b-td {
+    color: #02b6bd;
+}
+
+
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+td{
+    height:100px;
+}
+
+.table>tbody>tr>td {vertical-align: middle}
